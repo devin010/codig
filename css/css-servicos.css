@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container-grid{
+	width: 1200px;
+	border-right:solid 2px white ;
+	border-left:solid 2px white ;
+	box-sizing: content-box;
+}
+
+.container-top {
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	border-bottom: white 2px solid;
+}
+.container-logo img{
+	position: relative;
+	width: 300px;
+	bottom: 35px;
+	left: 20px;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	margin-right: 30px;
+	align-items: center;
+	list-style: none;
+}
+.menu a {
+	text-decoration: none;
+	color: white ;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+
+
+}
+
+header	{
+	display: flex;
+	justify-content: center;
+	background-image:url(../img/fundo-servicos.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 380px;
+}
+
+.container-conteudo {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 300px;
+	border-bottom: solid 2px white;
+}
+.container-conteudo h1 {
+	font-size: 50px;
+	font-family: cursive;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	height: 600px;
+}
+.container-main form {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	border: solid white 2px;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 20px;
+
+}
+.container-main label	{
+	color: white;
+	font-size: 20px;
+	margin: 10px 0px 5px 20px;
+}
+.container-main{
+	display: flex;
+	justify-content: center;
+}
+.container-main input{
+	height: 25px;
+}
+.container-main textarea {
+	height: 100px;
+}
+.botao {
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+}

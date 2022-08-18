@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina-adm {
+    background-color: #535353;
+    display: flex;
+}
+.container-header {
+    height: 150px;
+}

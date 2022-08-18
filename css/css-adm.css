@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina-adm {
+    background-color: #535353;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px yellow;
+
+}
+.topo {
+    border-bottom: black solid 2px ;
+}
+.container-logo img {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 90px;
+
+}
+.container-grid {
+    width: 1200px;
+    border-left: black solid 2px ;
+    border-right: black solid 2px;
+    height: 1000px;
+}
+.container-conteudo {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    height: 300px;
+    margin-top: 200px;
+}
+.conteudo {
+    padding: 15px;
+    width: 100%;
+}
+.conteudo h1 {
+    font-size: 40px;
+    color: white;
+    margin-left: 10px ;
+}
+.conteudo table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px 10px;
+}
+.conteudo tbody td {
+    font-size: 25px;
+}
+.conteudo thead {
+    font-size: 20px;
+    font-weight: bold;
+}
+table i {
+    font-size: 30px;
+    color: rgb(255, 55, 55);
+}
+.centro{
+    margin-right: 20px;
+}

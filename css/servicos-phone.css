@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container-grid {
+    width: 720px;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../img/fundo-header.jpg) ;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu {
+    display: none;
+}
+.container-top img {
+    width: 250px;
+    position: relative;
+    bottom: 30px;
+}
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: white 2px solid;
+}
+.container-top a {
+    font-size: 40px;
+    padding-right: 30px;
+    padding-top: 8px;
+    color: white;
+}

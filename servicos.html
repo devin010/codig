@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>codig -serviços</title>
+	<link rel="stylesheet"  media="screen and (min-width: 769px)" href="css/css-servicos.css">
+	<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/servicos-phone.css">
+	<script src="script.js"></script>
+	
+</head>
+<body>
+	<div class="pagina-serviços">
+		<header>
+			<div class="container-grid container-header">
+				<nav class="container-top">
+					<div class="container-logo">
+						<img src="img/logo-branco.png" alt="">
+					</div>
+					<ul class="menu">
+						<li><a href="home.html">Home</a></li>
+						<li><a href="servicos.html">Serviços</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+					<a href="#"><i class="fas fa-bars"></i></a>
+				</nav>
+				<div class="container-conteudo">
+				<h1>Limpeza Completa</h1>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container-grid container-main">
+				<form>
+					<label for="nome">Nome:</label>
+					<input type="text" name="nome" id="nome" value="beto">
+
+					<label for="endereço">Endereço:</label>
+					<input type="text" name="endereço" id="endereco" value="beto">
+
+					<label for="telefone">Telefone:</label>
+					<input type="text" name="telefone" id="telefone" value="beto"> 
+
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" value="beto@gmail.com">
+
+					<label for="motivo">Motivo:</label>
+					<input type="text" name="motivo" id="motivo" value="beto">
+
+					<label for="obs">Observação: </label>
+					<textarea id="obs" value="beto"></textarea>
+
+					<button type="submit" class="botao" onclick="salvar()">enviar</button>
+				</form>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
